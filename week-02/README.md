@@ -262,6 +262,7 @@ public function greeting() {
 ---
 
 Untuk proyek **POS System** dengan implementasi fitur yang lebih lengkap, lihat:
-👉 **[POS Week-02 README](../POS%20week-02/README.md)** 
+👉 **[POS Week-02 README](../week-02%20POS/README.md)** - Laporan lengkap dengan screenshots halaman
+
 ---
 
