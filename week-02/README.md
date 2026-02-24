@@ -23,7 +23,7 @@ Route::get('/user/{name}', function ($name) {
 ```
 
 **Screenshot:**  
-![Route Parameters](/img/user-parameter.png)
+![Route Parameters](./img/user-parameter.png)
 
 **Pengamatan:** Parameter berhasil ditangkap dari URL.
 
@@ -38,7 +38,7 @@ Route::get('/posts/{post}/comments/{comment}', function ($postId, $commentId) {
 ```
 
 **Screenshot:**  
-![Route Posts Comments](/img/posts-comments.png)
+![Route Posts Comments](./img/posts-comments.png)
 
 **Pengamatan:** Route dapat menangkap multiple parameter dari URL.
 
@@ -53,7 +53,7 @@ Route::get('/articles/{id}', function ($id) {
 ```
 
 **Screenshot:**  
-![Route Articles](/img/articles.png)
+![Route Articles](./img/articles.png)
 
 **Pengamatan:** Route dapat menampilkan halaman artikel sesuai dengan ID yang dikirim.
 
@@ -68,7 +68,7 @@ Route::get('/user/{name?}', function ($name = null) {
 ```
 
 **Screenshot:**  
-![Optional Parameters](/img/optional-parameter.png)
+![Optional Parameters](./img/optional-parameter.png)
 
 **Pengamatan:** Route dapat diakses dengan atau tanpa parameter.
 
@@ -85,7 +85,7 @@ Route::redirect('/here', '/about');
 ```
 
 **Screenshot About Route:**  
-![About Route](/img/about.png)
+![About Route](./img/about.png)
 
 **Pengamatan:** Named routes mempermudah referensi, redirect routes mengarahkan ke URL lain.
 
@@ -263,7 +263,7 @@ public function greeting() {
 ```
 
 **Screenshot:**  
-![Greeting Route](/img/greeting.png)
+![Greeting Route](./img/greeting.png)
 
 **Pengamatan:** Method `with()` memungkinkan passing data ke view dengan cara yang lebih readable.
 
