@@ -29,7 +29,7 @@ Pada tahap ini, pengguna memasukkan informasi dasar produk.
 
 ### 2. Step 2: Pricing & Stock
 Tahap selanjutnya menampilkan kolom input untuk harga (Price) dan Stok.
-![Pricing & Stock]./img/(pricing.png)
+![Pricing & Stock](./img/pricing.png)
 
 ### 3. Step 3: Media & Status
 Langkah terakhir digunakan untuk proses unggah media (gambar) dan penentuan status (Aktif dan Featured).
