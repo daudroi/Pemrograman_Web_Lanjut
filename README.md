@@ -10,7 +10,6 @@ Repository ini digunakan untuk menyimpan seluruh tugas praktikum dan laporan mat
 | **Nama**   | Achmad Daud Roichan |
 | **Kelas**  | TI-2F |
 
-*(Catatan: Sesuaikan nama dan NIM di atas jika ada perubahan)*
 
 ---
 
