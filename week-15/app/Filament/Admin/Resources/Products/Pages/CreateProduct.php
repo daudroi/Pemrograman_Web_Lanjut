@@ -1,0 +1,21 @@
+<?php
+
+namespace App\Filament\Admin\Resources\Products\Pages;
+
+use App\Filament\Admin\Resources\Products\ProductResource;
+use Filament\Resources\Pages\CreateRecord;
+
+class CreateProduct extends CreateRecord
+{
+    protected static string $resource = ProductResource::class;
+
+    protected function getRedirectUrl(): string
+    {
+        return $this->getResource()::getUrl('view', ['record' => $this->getRecord()]);
+    }
+
+    protected function getFormActions(): array
+    {
+        return [];
+    }
+}
